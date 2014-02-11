@@ -1,23 +1,29 @@
 ### acts_as_enid
 
-Your classes will be 100 times more cynically awesome with this gem by adding great Ghost World quotes to your views. 
+Your classes will be 100 times more cynically awesome with this gem that adds great Ghost World quotes to your views. 
 
 #### Use it
 Install with 
 
-```gem 'acts_as_enid', :git => 'git://github.com/alicetragedy/acts_as_enid.git'```
+```
+gem 'acts_as_enid', :git => 'git://github.com/alicetragedy/acts_as_enid.git'
+```
 
 and run bundle.  
 Add `acts_as_enid` to the model you want to spice up, like this:  
 
-```class User < ActiveRecord::Base
-		acts_as_enid
-	end```
+```
+class User < ActiveRecord::Base  
+  acts_as_enid  
+end
+```
 
 
 and add the instance method `enidify!` in your views wherever you want to use it, like this:
 
-```<h1><%=@user.enidify! %></h1>```
+```
+<h1><%=@user.enidify! %></h1>
+```
 
 ### Contributing to acts_as_enid
  
