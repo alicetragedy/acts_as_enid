@@ -1,6 +1,12 @@
 = acts_as_enid
 
-Description goes here.
+Your classes will be 100 times more cynically awesome with this gem. Install with 
+
+```gem 'acts_as_enid', :git => 'git://github.com/alicetragedy/acts_as_end.git'```
+
+then bundle it and add the instance method `enidify!` in your views wherever you want to use it. 
+
+```<h1><%=@user.enidify! %></h1>```
 
 == Contributing to acts_as_enid
  
@@ -14,6 +20,6 @@ Description goes here.
 
 == Copyright
 
-Copyright (c) 2014 Laura Gaetano. See LICENSE.txt for
+Copyright (c) 2014 LG. See LICENSE.txt for
 further details.
 
