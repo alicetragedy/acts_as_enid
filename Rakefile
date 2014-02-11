@@ -17,10 +17,10 @@ Jeweler::Tasks.new do |gem|
   gem.name = "acts_as_enid"
   gem.homepage = "http://github.com/alicetragedy/acts_as_enid"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
-  gem.email = "laura@bitstem.com"
-  gem.authors = ["Laura Gaetano"]
+  gem.summary = %Q{Acts as Enid from Ghost World.}
+  gem.description = %Q{Your classes will be 100 times more cynically awesome with this gem. There's the pants!}
+  gem.email = "girl@alicetragedy.org"
+  gem.authors = ["Laura"]
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
