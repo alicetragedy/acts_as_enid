@@ -20,6 +20,4 @@ then bundle it and add the instance method `enidify!` in your views wherever you
 
 == Copyright
 
-Copyright (c) 2014 LG. See LICENSE.txt for
-further details.
-
+* Totally inspired by the Charlotte Ruby "acts as Charlie Sheen" gem.
